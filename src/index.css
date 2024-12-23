@@ -16,15 +16,11 @@
 }
 
 
-:root {
-  --primary-light :#E86100;
-  --primary-dark  : #1B1B1B ;
- }
 
  @layer base {
    
    .buttons { 
-     @apply border p-3 rounded-md bg-gradient-to-r  from-[var(--primary-light)] via-[var(--primary-light)] to-[var(--primary-dark)] text-white
+     @apply  py-3 px-4 rounded-md bg-gradient-to-r from-orange-500 to-red-800 text-white
     }
      
  }
