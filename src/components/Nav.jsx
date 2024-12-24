@@ -37,7 +37,8 @@ const Nav = () => {
         {/* Menu Links for Desktop */}
         <div className='hidden md:flex items-center text-white'>
           <div className='flex items-center sm:space-x-3 lg:space-x-8'>
-            <Link to="/" className='hover:text-neutralGray text-[12px] lg:text-[15px]'>Features</Link>
+            <Link to="/" className='hover:text-neutralGray text-[12px] lg:text-[15px]'>Home</Link>
+            <Link to="/features" className='hover:text-neutralGray text-[12px] lg:text-[15px]'>Features</Link>
             <Link to="/shop" className='hover:text-neutralGray text-[12px] lg:text-[15px]'>Workflow</Link>
             <Link to="/community" className='hover:text-neutralGray text-[12px] lg:text-[15px]'>Pricing</Link>
             <Link to="/blog" className='hover:text-neutralGray text-[12px] lg:text-[15px]'>Testimonials</Link>
@@ -74,10 +75,11 @@ const Nav = () => {
           className='absolute top-6 right-8 w-[22px] h-[22px] cursor-pointer'
         />
         <div className='flex md:hidden pt-[150px] flex-col items-center space-y-8'>
-          <Link onClick={() => setNav(false)} className='text-[20px] hover:text-primary'>Features</Link>
-          <Link onClick={() => setNav(false)} className='text-[20px] hover:text-primary'>Workflow</Link>
-          <Link onClick={() => setNav(false)} className='text-[20px] hover:text-primary'>Pricing</Link>
-          <Link onClick={() => setNav(false)} className='text-[20px] hover:text-primary'>Testimonials</Link>
+          <Link to="/"  onClick={() => setNav(false)} className='text-[20px] '>Home</Link>
+          <Link to="/features"  onClick={() => setNav(false)} className='text-[20px] '>Features</Link>
+          <Link onClick={() => setNav(false)} className='text-[20px] '>Workflow</Link>
+          <Link onClick={() => setNav(false)} className='text-[20px] '>Pricing</Link>
+          <Link onClick={() => setNav(false)} className='text-[20px] '>Testimonials</Link>
         </div>
 
        {/* buttons */}
