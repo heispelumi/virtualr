@@ -13,6 +13,30 @@
     "documentation": "Documentación",
     "location": "Lagos, Nigeria",
     "phone": "+234 23465789",
-    "rights_reserved": "© 2024 Todos los derechos reservados"
+    "rights_reserved": "© 2024 Todos los derechos reservados",
+      "footer_company": "Compañía",
+      "footer_features": "Características",
+      "footer_discover": "Descubrir",
+      "footer_socials": "Redes Sociales",
+      "footer_company_items": ["Carreras", "Blog", "Kit de Prensa", "Boletín", "Sala de Prensa", "Github"],
+      "footer_features_items": [
+        "Multiplataforma",
+        "WebXR",
+        "Recursos",
+        "Editor de Código",
+        "Responsivo",
+        "Colaboración",
+        "Optimización",
+        "Exportar",
+        "Interactividad",
+        "Plantillas",
+        "Analítica",
+        "Multijugador",
+        "Escalabilidad"
+      ],
+      "footer_discover_items": ["Preguntas Frecuentes", "Explorar", "Inscribe GPT"],
+      "footer_copyright": "© 2024 Todos los Derechos Reservados"
+
+    
   }
   

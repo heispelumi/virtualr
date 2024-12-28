@@ -13,5 +13,29 @@
   "documentation": "文档",
   "location": "拉哥斯，尼日利亚",
   "phone": "+234 23465789",
-  "rights_reserved": "© 2024 版权所有"
+  "rights_reserved": "© 2024 版权所有",
+    "footer_company": "公司",
+    "footer_features": "功能",
+    "footer_discover": "发现",
+    "footer_socials": "社交媒体",
+    "footer_company_items": ["职业", "博客", "新闻包", "通讯", "新闻室", "Github"],
+    "footer_features_items": [
+      "跨平台",
+      "WebXR",
+      "资源",
+      "代码编辑器",
+      "响应式",
+      "协作",
+      "优化",
+      "导出",
+      "交互性",
+      "模板",
+      "分析",
+      "多人游戏",
+      "可扩展性"
+    ],
+    "footer_discover_items": ["常见问题", "探索", "铭刻 GPT"] ,
+
+    "footer_copyright": "© 2024 版权所有"
+
 }

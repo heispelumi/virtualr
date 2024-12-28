@@ -15,6 +15,9 @@
  
 }
 
+body {
+  padding-top: 80px; 
+}
 
 
  @layer base {

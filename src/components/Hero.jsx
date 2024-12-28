@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef } from 'react';
 import video1 from '../assets/video1.mp4';
 import video2 from '../assets/video2.mp4';
 import { RiInstagramFill, RiRedditFill, RiTiktokFill, RiTwitterXFill } from "react-icons/ri";
-import { Link } from 'react-router-dom';
 import { IoMdArrowDropdown } from "react-icons/io";
 import { useTranslation } from 'react-i18next';
 import logo from '../assets/logo.png';
@@ -59,13 +58,13 @@ const Hero = () => {
         </p>
         {/* Buttons */}
         <div className='flex space-x-4 sm:space-x-8'>
-          <button className='buttons my-10 text-[14px] md:text-[20px]'>{t('start_for_free')}</button>
+          <button className='buttons my-10 text-[10px] md:text-[20px]'>{t('start_for_free')}</button>
           <button>
-            <h1 className='border border-white bg-black py-3 px-4 md:text-[20px] text-[14px] rounded-md'>{t('documentation')}</h1>
+            <h1 className='border border-white bg-black py-3 px-4 md:text-[20px] text-[10px] rounded-md'>{t('documentation')}</h1>
           </button>
         </div>
         {/* Videos */}
-        <div className='flex items-center lg:px-[150px] lg:pt-[100px] text-center'>
+        <div className='flex items-center  pb-[200px] lg:px-[150px] lg:pt-[100px] text-center'>
           <div className="grid items-center md:space-x-10 grid-cols-1 md:flex md:justify-center mt-10">
             <video autoPlay loop muted src={video1} className="rounded-lg w-[350px] lg:w-[600px] border border-orange-700 shadow-orange-400 my-4"></video>
             <video autoPlay loop muted src={video2} className="rounded-lg w-[350px] lg:w-[600px] border border-orange-700 shadow-orange-400 my-4"></video>
@@ -73,16 +72,11 @@ const Hero = () => {
         </div>
       </div>
        
-       {/* Footer */}
-    
-            
-        
-
-       
-      </footer> */}<footer className='text-white px-4 lg:px-[150px] lg:pt-[100px]'>
-  <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 py-8'>
+       {/* Footer */}  
+       <footer className='text-white px-4 lg:px-[150px] lg:pt-[100px]'>
+  <div className='grid grid-cols-2 md:grid-cols-5   lg:grid-cols-5 gap-8 py-8'>
     {/* Logo and Language Dropdown */}
-    <div>
+    <div className='col-span-2  lg:col-span-1'>
       <div className='flex items-center py-2'>
         <div className="flex items-center">
           <img className="w-[100px] h-[50px] object-cover" src={logo} alt="Nexcent Logo" />
@@ -93,7 +87,8 @@ const Hero = () => {
         <div onClick={toggleDropdown} className="flex items-center text-xl gap-x-1 h-[72px] cursor-pointer text-orange-500">
           {languages.find(lang => lang.key === currentLanguage)?.label || 'English'}
           <span>
-            <IoMdArrowDropdown className={`transition-all duration-200 ${isDropdownOpen ? 'rotate-180' : ''}`} />
+          <IoMdArrowDropdown className={`transition-all duration-200 ${isDropdownOpen ? 'rotate-180' : ''}`} />
+
           </span>
         </div>
         {isDropdownOpen && (
@@ -113,15 +108,15 @@ const Hero = () => {
     </div>
 
     {/* Company Section */}
-    <div className='flex flex-col'>
-      <h1 className='text-white pb-3 text-[16px]'>Company</h1>
+    <div className='flex flex-col lg:pt-6'>
+      <h1 className='text-white pb-3 text-[16px]'>{t('footer_company')}</h1>
       {['Careers', 'Blog', 'Press Kit', 'Newsletter', 'Newsroom', 'Github'].map((item, index) => (
         <h1 key={index} className='text-zinc-400 py-1 text-[16px]'>{item}</h1>
       ))}
     </div>
 
     {/* Features Section */}
-    <div className='flex flex-col'>
+    <div className='flex flex-col lg:pt-6'>
       <h1 className='text-white pb-3 text-[16px]'>Features</h1>
       {['Cross-platform', 'WebXR', 'Assets', 'Code-editor', 'Responsive', 'Collaboration', 'Optimization', 'Export', 'Interactivity', 'Templates', 'Analytics', 'Multiplayer', 'Scalability'].map((item, index) => (
         <h1 key={index} className='text-zinc-400 py-1 text-[16px]'>{item}</h1>
@@ -129,26 +124,44 @@ const Hero = () => {
     </div>
 
     {/* Discover Section */}
-    <div className='flex flex-col'>
-      <h1 className='text-white pb-3 text-[16px]'>Discover</h1>
-      {['FAQ', 'Explore', 'Inscribe GPT'].map((item, index) => (
-        <h1 key={index} className='text-zinc-400 py-1 text-[16px]'>{item}</h1>
-      ))}
+    <div className="flex flex-col lg:pt-6">
+
+  <h1 className="text-white pb-3 text-[16px]">{t("footer_discover")}</h1>
+
+  {/* Mapping over translated array items */}
+  {t("footer_discover_items", { returnObjects: true }).map((item, index) => (
+    <h1 key={index} className="text-zinc-400 py-1 text-[16px]">{item}</h1>
+  ))}
+</div>
+
+
+    {/* Social Media Section */}
+    <div className='col-span-2 md:pl-[380px] lg:pl-[0px] lg:col-span-1 lg:pt-6 flex flex-col  items-center'>
+      <h1 className='text-white pb-3 text-[16px]'>{t( "footer_socials" )}</h1>
+      <div className='flex justify-center space-x-4'>
+        <RiTwitterXFill className='text-[25px]' />
+        <RiTiktokFill className='text-[25px]' />
+        <RiInstagramFill className='text-[25px]' />
+        <RiRedditFill className='text-[25px]' />
+      </div>
     </div>
   </div>
 
-  {/* Social Media Icons */}
-  <div className='flex justify-center space-x-4 py-4'>
-    <RiTwitterXFill className='text-[25px]' />
-    <RiTiktokFill className='text-[25px]' />
-    <RiInstagramFill className='text-[25px]' />
-    <RiRedditFill className='text-[25px]' />
+  {/* Footer Bottom */}
+  <div>
+    <p className="border-t-2 border-gray-300/50 text-[10px] py-8 text-center">
+      © 2024 All Rights Reserved
+    </p>
   </div>
 </footer>
+
+
+
+       
+
 
     </div>
   );
 };
 
 export default Hero;
-

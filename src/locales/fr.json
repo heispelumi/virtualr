@@ -11,8 +11,28 @@
     "description": "Libérez votre créativité avec nos outils de développement intuitifs et transformez vos idées d'applications VR en réalité. Commencez dès aujourd'hui et apportez votre imagination dans la réalité immersive.",
     "start_for_free": "Commencez gratuitement",
     "documentation": "Documentation",
-    "location": "Lagos, Nigéria",
-    "phone": "+234 23465789",
-    "rights_reserved": "© 2024 Tous droits réservés"
+    "footer_company": "Entreprise",
+      "footer_features": "Fonctionnalités",
+      "footer_discover": "Découvrir",
+      "footer_socials": "Réseaux Sociaux",
+      "footer_company_items": ["Carrières", "Blog", "Kit de Presse", "Bulletin", "Salle de Presse", "Github"],
+      "footer_features_items": [
+        "Multi-plateforme",
+        "WebXR",
+        "Ressources",
+        "Éditeur de Code",
+        "Réactif",
+        "Collaboration",
+        "Optimisation",
+        "Exporter",
+        "Interactivité",
+        "Modèles",
+        "Analytique",
+        "Multijoueur",
+        "Évolutivité"
+      ],
+      "footer_discover_items": ["FAQ", "Explorateur", "S'inscrire à GPT"],
+      "footer_copyright": "© 2024 Tous Droits Réservés"
+    
   }
   
