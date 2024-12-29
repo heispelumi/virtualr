@@ -1,12 +1,14 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout'; // Import the Layout component
-import Hero from './components/Hero'; // Import the Hero component
-import Features from './components/Features'; // Import the Features component
+import Hero from './components/Hero'; 
+import Features from './components/Features'; 
 
 function App() {
   return (
-    <Layout> {/* Wrap all routes inside the Layout */}
+
+    <div className="max-w-9xl mx-auto pt-20 px-6">
+    <Layout> 
 
         <Routes>
           <Route path="/" element={<Hero />} />
@@ -14,6 +16,8 @@ function App() {
         </Routes>
      
     </Layout>
+
+    </div>
   );
 }
 

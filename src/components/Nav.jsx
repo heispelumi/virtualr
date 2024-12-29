@@ -1,5 +1,3 @@
-
-
 import { Link } from 'react-router-dom';
 import { CiMenuFries } from "react-icons/ci";
 import logo from '../assets/logo.png';
