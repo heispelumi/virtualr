@@ -47,5 +47,16 @@
   "feature_collaboration_text": "Herramientas de colaboración",
   "feature_collaboration_description": "Trabaja en tiempo real con tu equipo en proyectos VR, facilitando la colaboración y el intercambio de ideas.",
   "feature_analytics_text": "Panel de análisis",
-  "feature_analytics_description": "Obtén información valiosa sobre las interacciones y el comportamiento de los usuarios dentro de tus aplicaciones VR con un panel de análisis integrado."
+  "feature_analytics_description": "Obtén información valiosa sobre las interacciones y el comportamiento de los usuarios dentro de tus aplicaciones VR con un panel de análisis integrado.",
+  "workflow_title": "Flujo de trabajo",
+   "workflow_heading": "Acelera tu",
+   "workflow_subheading": "Flujo de trabajo de codificación",
+   "workflow_code_merge_made_easy_text": "Fusión de código fácil",
+   "workflow_code_merge_made_easy_description": "Optimiza tu proceso de desarrollo con una fusión de código fluida, reduciendo conflictos y asegurando un flujo de trabajo más eficiente.",
+   "workflow_review_code_without_worry_text": "Revisa el código sin preocupaciones",
+   "workflow_review_code_without_worry_description": "Simplifica las revisiones de código con herramientas que te ayudan a detectar problemas rápidamente, permitiendo una colaboración eficiente y confiable.",
+   "workflow_ai_assistant_text": "Asistencia de IA para ahorrar tiempo",
+   "workflow_ai_assistant_description": "Aprovecha herramientas impulsadas por IA para automatizar tareas repetitivas, aumentar la productividad y centrarte en lo que realmente importa.",
+   "share_work_instantly_text": "Comparte tu trabajo al instante",
+   "share_work_instantly_description": "Comparte fácilmente tu progreso con compañeros de equipo o partes interesadas con solo unos clics, acelerando la retroalimentación y las aprobaciones."
 }

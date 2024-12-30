@@ -47,5 +47,20 @@
   "feature_collaboration_text": "Outils de collaboration",
   "feature_collaboration_description": "Collaborez en temps réel avec votre équipe sur des projets VR, facilitant la coopération et le partage d'idées.",
   "feature_analytics_text": "Tableau de bord analytique",
-  "feature_analytics_description": "Obtenez des informations précieuses sur les interactions et le comportement des utilisateurs dans vos applications VR avec un tableau de bord analytique intégré."
+  "feature_analytics_description": "Obtenez des informations précieuses sur les interactions et le comportement des utilisateurs dans vos applications VR avec un tableau de bord analytique intégré.",
+  "workflow_title": "Flux de travail",
+  "workflow_heading": "Accélérez votre" ,
+  "workflow_subheading": "Flux de travail de codage",
+   "workflow_code_merge_made_easy_text": "Fusion de code simplifiée",
+   "workflow_code_merge_made_easy_description": "Rationalisez votre processus de développement avec une fusion de code fluide, réduisant les conflits et assurant un flux de travail plus fluide.",
+  "workflow_review_code_without_worry_text": "Révisez le code sans souci",
+  "workflow_review_code_without_worry_description": "Simplifiez les revues de code avec des outils qui vous aident à repérer rapidement les problèmes, permettant une collaboration efficace et fiable.",
+  "workflow_ai_assistant_text": "Assistance IA pour gagner du temps",
+  "workflow_ai_assistant_description": "Utilisez des outils alimentés par l'IA pour automatiser les tâches répétitives, améliorer la productivité et vous concentrer sur l'essentiel.",
+  "share_work_instantly_text": "Partagez votre travail instantanément",
+  "share_work_instantly_description": "Partagez facilement vos progrès avec vos coéquipiers ou parties prenantes en quelques clics, accélérant les retours et les validations."
+
+  
+  
+
 }

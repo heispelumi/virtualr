@@ -47,3 +47,35 @@ export const features = [
         "feature_analytics_description",
     },
   ];
+
+
+
+
+  export const workflow = [
+    {
+      text:"workflow_code_merge_made_easy_text" ,
+      description:  
+      "workflow_code_merge_made_easy_description" ,
+      
+    },
+    {
+      text:
+         "workflow_review_code_without_worry_text",
+      description:
+            "workflow_review_code_without_worry_description" ,
+       
+    },
+    {
+      text: "workflow_ai_assistant_text" ,
+      description: 
+             "workflow_ai_assistant_description" ,
+      
+    },
+    {
+      text: "share_work_instantly_text"  ,
+      description: 
+              "share_work_instantly_description",
+       
+    },
+  ];
+  

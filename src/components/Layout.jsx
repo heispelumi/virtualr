@@ -1,11 +1,11 @@
-// Layout.js
+
 import React from 'react';
-import Nav from './Nav'; // Import the Nav component
+import Nav from './Nav'; 
 
 const Layout = ({ children }) => {
   return (
     <div>
-      <Nav /> {/* Navigation bar is always displayed */}
+      <Nav /> 
       <main className="p-4">{children}</main> 
     </div>
   );

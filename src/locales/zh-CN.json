@@ -47,5 +47,18 @@
   "feature_collaboration_text": "协作工具",
   "feature_collaboration_description": "与团队实时合作进行 VR 项目，促进无缝协作和想法分享。",
   "feature_analytics_text": "分析仪表板",
-  "feature_analytics_description": "通过集成的分析仪表板，获取有关用户互动和行为的宝贵见解。"
+  "feature_analytics_description": "通过集成的分析仪表板，获取有关用户互动和行为的宝贵见解。",
+  "workflow_title": "工作流",
+  "workflow_heading": "加速您的",
+  "workflow_subheading": "编码工作流程",
+  "workflow_code_merge_made_easy_text": "代码合并变得简单",
+  "workflow_code_merge_made_easy_description": "通过无缝代码合并简化开发流程，减少冲突并确保更顺畅的工作流程。",
+  "workflow_review_code_without_worry_text": "放心审查代码",
+  "workflow_review_code_without_worry_description": "使用工具简化代码审查，快速发现问题，实现高效可靠的协作。",
+  "workflow_ai_assistant_text": "AI 助手节省时间",
+  "workflow_ai_assistant_description": "利用 AI 驱动的工具自动化重复任务，提高生产力，专注于真正重要的事情。",
+  "share_work_instantly_text": "即时共享工作",
+  "share_work_instantly_description": "只需几次点击即可轻松与团队成员或利益相关者共享进展，加快反馈和审批。"
+
+
 }

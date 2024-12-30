@@ -50,8 +50,18 @@
   "feature_collaboration_text": "Collaboration Tools",
   "feature_collaboration_description": "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
   "feature_analytics_text": "Analytics Dashboard",
-  "feature_analytics_description": "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard."
-
+  "feature_analytics_description": "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
+  "workflow_title": "Workflow",
+   "workflow_heading": "Accelerate Your",
+   "workflow_subheading": "Coding Workflow",
+   "workflow_code_merge_made_easy_text" :  "Code Merge Made Easy",
+   "workflow_code_merge_made_easy_description" :  "Streamline your development process with seamless code merging, reducing conflicts and ensuring a smoother workflow.",
+   "workflow_review_code_without_worry_text" : "Review Code Without Worry",
+   "workflow_review_code_without_worry_description" :  "Simplify code reviews with tools that help you spot issues quickly, enabling efficient and reliable collaboration.",
+   "workflow_ai_assistant_text" : "AI Assistance to Save Time",
+   "workflow_ai_assistant_description" :  "Leverage AI-powered tools to automate repetitive tasks, boost productivity, and focus on what truly matters.",
+   "share_work_instantly_text" : "Share Work Instantly",
+   "share_work_instantly_description" :"Easily share your progress with teammates or stakeholders in just a few clicks, speeding up feedback and approvals."
 }
 
   

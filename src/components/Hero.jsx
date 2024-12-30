@@ -51,7 +51,7 @@ const Hero = () => {
       <div className='flex flex-col items-center overflow-hidden mt-6'>
         <h1 className='sm:w-[1000px] lg:pt-[50px] text-3xl sm:text-5xl lg:text-6xl text-center tracking-wide'>
           {t('title')}
-          <span className='text-center bg-gradient-to-r from-orange-500 to-red-800 text-transparent mx-4 bg-clip-text'>
+          <span className='text-center md:text-[30px]  bg-gradient-to-r from-orange-500 to-red-800 text-transparent mx-4 bg-clip-text'>
             {t('for_developers')}
           </span>
         </h1>
