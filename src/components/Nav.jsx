@@ -41,7 +41,7 @@ const Nav = () => {
             <Link to="/" className="hover:text-neutralGray text-[10px] sm:text-[10px] lg:text-[15px]">{t('home')}</Link>
             <Link to="/features" className="hover:text-neutralGray text-[12px] lg:text-[15px]">{t('features')}</Link>
             <Link to="/workflow" className="hover:text-neutralGray text-[12px] lg:text-[15px]">{t('workflow')}</Link>
-            <Link to="/community" className="hover:text-neutralGray text-[12px] lg:text-[15px]">{t('pricing')}</Link>
+            <Link to="/pricing" className="hover:text-neutralGray text-[12px] lg:text-[15px]">{t('pricing')}</Link>
             <Link to="/blog" className="hover:text-neutralGray text-[12px] lg:text-[15px]">{t('testimonials')}</Link>
           </div>
         </div>
@@ -88,7 +88,7 @@ const Nav = () => {
           <Link to="/" onClick={() => setNav(false)} className="text-[20px]">{t('home')}</Link>
           <Link to="/features" onClick={() => setNav(false)} className="text-[20px]">{t('features')}</Link>
           <Link to='workflow' onClick={() => setNav(false)} className="text-[20px]">{t('workflow')}</Link>
-          <Link onClick={() => setNav(false)} className="text-[20px]">{t('pricing')}</Link>
+          <Link to="pricing" onClick={() => setNav(false)} className="text-[20px]">{t('pricing')}</Link>
           <Link onClick={() => setNav(false)} className="text-[20px]">{t('testimonials')}</Link>
         </div>
 

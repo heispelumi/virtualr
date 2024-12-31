@@ -23,7 +23,7 @@ const Workflow = () => {
         {/* Image Section */}
         <div className="p-6 md:w-1/2 lg:w-1/2 flex justify-center ">
           <img
-            className="w-[300px]   md:w-[550px] md:h-[550px] object-cover"
+            className="w-[300px]   md:w-full"
             src={code}
             alt="Coding"
           />
