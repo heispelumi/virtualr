@@ -75,14 +75,14 @@ const Hero = () => {
       </div>
        
       {/* Footer */}  
-      <footer className='text-white px-4 lg:px-[150px] lg:pt-[100px]'>
+      <footer className='text-white w-full lg:pt-[100px]'>
         <div className='grid grid-cols-2 md:grid-cols-5 lg:grid-cols-5 gap-8 py-8'>
           {/* Logo and Language Dropdown */}
           <div className='col-span-2 lg:col-span-1'>
             <div className='flex items-center py-2'>
               <div className="flex items-center">
                 <img className="w-[100px] h-[50px] object-cover" src={logo} alt="Nexcent Logo" />
-                <span className='text-neutralGray text-[30px] font-semibold ml-2'>nexcent</span>
+        
               </div>
             </div>
             <div ref={dropdownRef} className="relative group">

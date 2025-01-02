@@ -58,7 +58,24 @@
   "workflow_ai_assistant_text": "AI 助手节省时间",
   "workflow_ai_assistant_description": "利用 AI 驱动的工具自动化重复任务，提高生产力，专注于真正重要的事情。",
   "share_work_instantly_text": "即时共享工作",
-  "share_work_instantly_description": "只需几次点击即可轻松与团队成员或利益相关者共享进展，加快反馈和审批。"
+  "share_work_instantly_description": "只需几次点击即可轻松与团队成员或利益相关者共享进展，加快反馈和审批。",
+  "pricing": "定价",
+  "explore_our": "探索我们的",
+  "prices": "价格",
+  "free": "免费",
+  "pro": "专业版",
+  "enterprise": "企业版",
+  "private_board": "私人看板",
+  "storage_5gb": "5GB 存储",
+  "storage_10gb": "10GB 存储",
+  "storage_unlimited": "无限存储",
+  "web_analytics": "网站分析",
+  "web_analytics_advanced": "高级网站分析",
+  "private_mode": "私人模式",
+  "high_performance_network": "高性能网络",
+  "most_popular": "(最受欢迎)",
+  "subscribe": "订阅"
+  
 
 
 }

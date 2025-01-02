@@ -41,8 +41,8 @@ const Nav = () => {
             <Link to="/" className="hover:text-neutralGray text-[10px] sm:text-[10px] lg:text-[15px]">{t('home')}</Link>
             <Link to="/features" className="hover:text-neutralGray text-[12px] lg:text-[15px]">{t('features')}</Link>
             <Link to="/workflow" className="hover:text-neutralGray text-[12px] lg:text-[15px]">{t('workflow')}</Link>
+            <Link to="/testimonials" className="hover:text-neutralGray text-[12px] lg:text-[15px]">{t('testimonials')}</Link>
             <Link to="/pricing" className="hover:text-neutralGray text-[12px] lg:text-[15px]">{t('pricing')}</Link>
-            <Link to="/blog" className="hover:text-neutralGray text-[12px] lg:text-[15px]">{t('testimonials')}</Link>
           </div>
         </div>
 
@@ -70,7 +70,7 @@ const Nav = () => {
       {nav && (
         <div
           className="bg-black/80 fixed top-0 left-0 w-full h-screen z-20"
-          onClick={() => setNav(false)} // Close menu when backdrop is clicked
+          onClick={() => setNav(false)} 
         ></div>
       )}
 
@@ -81,15 +81,15 @@ const Nav = () => {
         }`}
       >
         <AiOutlineClose
-          onClick={() => setNav(false)} // Close menu when close button is clicked
+          onClick={() => setNav(false)} 
           className="absolute top-6 right-8 w-[22px] h-[22px] cursor-pointer"
         />
-        <div className="flex md:hidden pt-[150px] flex-col items-center space-y-8">  {/* Removed pt-[150px] */}
+        <div className="flex md:hidden pt-[150px] flex-col items-center space-y-8"> 
           <Link to="/" onClick={() => setNav(false)} className="text-[20px]">{t('home')}</Link>
           <Link to="/features" onClick={() => setNav(false)} className="text-[20px]">{t('features')}</Link>
-          <Link to='workflow' onClick={() => setNav(false)} className="text-[20px]">{t('workflow')}</Link>
-          <Link to="pricing" onClick={() => setNav(false)} className="text-[20px]">{t('pricing')}</Link>
-          <Link onClick={() => setNav(false)} className="text-[20px]">{t('testimonials')}</Link>
+          <Link to='/workflow' onClick={() => setNav(false)} className="text-[20px]">{t('workflow')}</Link>
+          <Link to="/pricing" onClick={() => setNav(false)} className="text-[20px]">{t('pricing')}</Link>
+          <Link to='/testimonials' onClick={() => setNav(false)} className="text-[20px]">{t('testimonials')}</Link>
         </div>
 
         {/* Buttons */}

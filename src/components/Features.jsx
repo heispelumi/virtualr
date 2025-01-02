@@ -6,10 +6,10 @@ const Features = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="relative md:max-w-7xl mx-auto h-full overflow-x-hidden lg:px-6 overflow-y-hidden border-b border-neutral-800">
+    <div className="relative md:max-w-10xl mx-auto h-full overflow-x-hidden lg:px-6 overflow-y-hidden border-b border-neutral-800">
       {/* Text area */}
       <div className="text-center">
-        <h1 className="text-orange-500 text-sm font-medium uppercase">
+        <h1 className="text-orange-500 text-sm my-10 font-medium uppercase">
           {t("features_title")}
         </h1>
         <h1 className="text-xl sm:text-3xl lg:text-6xl mt-8 lg:mt-10 lg:mt-15 tracking-wide">

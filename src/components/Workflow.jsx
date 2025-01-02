@@ -6,10 +6,10 @@ import { useTranslation } from "react-i18next";
 const Workflow = () => {
     const { t } = useTranslation();
   return (
-    <div className="relative  md:max-w-7xl mx-auto  overflow-x-hidden  overflow-y-hidden   lg:px-6 ">
+    <div className="">
       {/* Title Section */}
-      <div className="text-center">
-        <h1 className="text-orange-500 text-sm font-medium uppercase">{t('workflow_title')}</h1>
+      <div className="text-center ">
+        <h1 className="text-orange-500 text-sm my-10 font-medium uppercase">{t('workflow_title')}</h1>
         <h1 className="text-xl  w-full lg:w-full sm:text-3xl lg:text-6xl mt-5 tracking-wide">
         {t("workflow_heading")}
           <span className="  md:text-[30px] bg-gradient-to-r from-orange-500 to-orange-800 text-transparent ml-3  bg-clip-text">
@@ -23,7 +23,7 @@ const Workflow = () => {
         {/* Image Section */}
         <div className="p-6 md:w-1/2 lg:w-1/2 flex justify-center ">
           <img
-            className="w-[300px]   md:w-full"
+            className="w-[300px]   md:w-[550px]"
             src={code}
             alt="Coding"
           />

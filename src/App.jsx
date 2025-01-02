@@ -5,11 +5,12 @@ import Hero from './components/Hero';
 import Features from './components/Features'; 
 import Workflow from './components/Workflow'; 
 import Pricing from './components/Pricing'; 
+import Testimonials from './components/Testimonials'; 
 
 function App() {
   return (
 
-    <div className="max-w-9xl mx-auto pt-20 ">
+    <div className="max-w-[90rem]  mx-auto  ">
     <Layout> 
 
         <Routes>
@@ -17,6 +18,7 @@ function App() {
           <Route path="/features" element={<Features />} />
           <Route path="/workflow" element={<Workflow />} />
           <Route path="/pricing" element={<Pricing/>} />
+          <Route path="/testimonials" element={<Testimonials/>} />
         </Routes>
      
     </Layout>
