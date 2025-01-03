@@ -11,7 +11,7 @@ const Nav = () => {
   const [nav, setNav] = useState(false);
 
   useEffect(() => {
-    // Lock body scroll when nav is open, allow scroll when closed
+ 
     if (nav) {
       document.body.style.overflow = 'hidden';
     } else {
@@ -19,7 +19,7 @@ const Nav = () => {
     }
 
     return () => {
-      document.body.style.overflow = 'auto'; // Cleanup on unmount
+      document.body.style.overflow = 'auto'; 
     };
   }, [nav]);
 
@@ -36,7 +36,7 @@ const Nav = () => {
         </div>
 
         {/* Menu Links for Desktop */}
-        <div className="hidden md:flex items-center text-white">
+        <div className="hidden md:hidden lg:flex  items-center text-white">
           <div className="flex items-center sm:space-x-2 lg:space-x-8">
             <Link to="/" className="hover:text-neutralGray text-[10px] sm:text-[10px] lg:text-[15px]">{t('home')}</Link>
             <Link to="/features" className="hover:text-neutralGray text-[12px] lg:text-[15px]">{t('features')}</Link>
@@ -47,7 +47,7 @@ const Nav = () => {
         </div>
 
         {/* Buttons for Desktop */}
-        <div className="items-center space-x-3 hidden md:flex justify-center">
+        <div className="items-center space-x-3 hidden md:hidden lg:flex  justify-center">
           <button className="flex">
             <h1 className="border border-white bg-black p-3 text-[12px] rounded-md">{t('sign_in')}</h1>
           </button>
@@ -57,7 +57,7 @@ const Nav = () => {
         </div>
 
         {/* Mobile Menu Button */}
-        <div className="flex md:hidden">
+        <div className="flex md:flex lg:hidden">
           <CiMenuFries
             onClick={() => setNav(!nav)}
             size={30}
@@ -82,18 +82,18 @@ const Nav = () => {
       >
         <AiOutlineClose
           onClick={() => setNav(false)} 
-          className="absolute top-6 right-8 w-[22px] h-[22px] cursor-pointer"
+          className="absolute md:flex lg:hidden top-6 right-8 w-[22px] h-[22px] cursor-pointer"
         />
-        <div className="flex md:hidden pt-[150px] flex-col items-center space-y-8"> 
+        <div className="flex md:flex lg:hidden  pt-[150px] md:pt-[350px] flex-col items-center space-y-8"> 
           <Link to="/" onClick={() => setNav(false)} className="text-[20px]">{t('home')}</Link>
           <Link to="/features" onClick={() => setNav(false)} className="text-[20px]">{t('features')}</Link>
           <Link to='/workflow' onClick={() => setNav(false)} className="text-[20px]">{t('workflow')}</Link>
-          <Link to="/pricing" onClick={() => setNav(false)} className="text-[20px]">{t('pricing')}</Link>
           <Link to='/testimonials' onClick={() => setNav(false)} className="text-[20px]">{t('testimonials')}</Link>
+          <Link to="/pricing" onClick={() => setNav(false)} className="text-[20px]">{t('pricing')}</Link>
         </div>
 
         {/* Buttons */}
-        <div className="flex md:hidden gap-x-3 pt-[40px]">
+        <div className="flex md:flex lg:hidden gap-x-3 pt-[40px] ">
           <button className="bg-black border px-4 py-3 rounded-md">
             {t('sign_in')}
           </button>

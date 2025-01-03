@@ -18,7 +18,7 @@ const Hero = () => {
     { key: 'zh-CN', label: '中文 ' },
   ];
 
-  // Check localStorage for the saved language or default to 'en'
+
   const [currentLanguage, setCurrentLanguage] = useState(localStorage.getItem('language') || 'en');
 
   const toggleDropdown = () => {
@@ -35,7 +35,7 @@ const Hero = () => {
     setCurrentLanguage(langKey);
     i18n.changeLanguage(langKey);
     setIsDropdownOpen(false);
-    localStorage.setItem('language', langKey); // Save language to localStorage
+    localStorage.setItem('language', langKey); 
   };
 
   useEffect(() => {
@@ -48,10 +48,10 @@ const Hero = () => {
   return (
     <div className=''>
       {/* Text area */}
-      <div className='flex flex-col items-center overflow-hidden mt-6'>
-        <h1 className='sm:w-[1000px] lg:pt-[50px] text-3xl sm:text-5xl lg:text-6xl text-center tracking-wide'>
+      <div className='flex flex-col items-center overflow-hidden my-10'>
+        <h1 className='sm:w-[1000px] lg:pt-[50px] text-3xl sm:text-4xl lg:text-6xl text-center tracking-wide'>
           {t('title')}
-          <span className='text-center md:text-[30px]  bg-gradient-to-r from-orange-500 to-red-800 text-transparent mx-4 bg-clip-text'>
+          <span className='text-center md:text-[25x]  bg-gradient-to-r from-orange-500 to-red-800 text-transparent mx-4 bg-clip-text'>
             {t('for_developers')}
           </span>
         </h1>
@@ -75,10 +75,10 @@ const Hero = () => {
       </div>
        
       {/* Footer */}  
-      <footer className='text-white w-full lg:pt-[100px]'>
+      <footer className='text-white w-full p-1 lg:pt-[100px]'>
         <div className='grid grid-cols-2 md:grid-cols-5 lg:grid-cols-5 gap-8 py-8'>
           {/* Logo and Language Dropdown */}
-          <div className='col-span-2 lg:col-span-1'>
+          <div className='col-span-2  px-4 lg:col-span-1'>
             <div className='flex items-center py-2'>
               <div className="flex items-center">
                 <img className="w-[100px] h-[50px] object-cover" src={logo} alt="Nexcent Logo" />

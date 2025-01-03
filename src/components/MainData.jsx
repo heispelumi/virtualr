@@ -90,37 +90,37 @@ export const features = [
       user: "John Doe",
       company: "Stellar Solutions",
       image: user1,
-      text: "I am extremely satisfied with the services provided. The team was responsive, professional, and delivered results beyond my expectations.",
+      textKey: "testimonials.0.text",
     },
     {
       user: "Jane Smith",
       company: "Blue Horizon Technologies",
       image: user2,
-      text: "I couldn't be happier with the outcome of our project. The team's creativity and problem-solving skills were instrumental in bringing our vision to life",
+      textKey: "testimonials.1.text",
     },
     {
       user: "David Johnson",
       company: "Quantum Innovations",
       image: user3,
-      text: "Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch service.",
+      textKey: "testimonials.2.text",
     },
     {
       user: "Ronee Brown",
       company: "Fusion Dynamics",
       image: user4,
-      text: "Working with the team at XYZ Company was a game-changer for our project. Their attention to detail and innovative solutions helped us achieve our goals faster than we thought possible. We are grateful for their expertise and professionalism!",
+      textKey: "testimonials.3.text",
     },
     {
       user: "Michael Wilson",
       company: "Visionary Creations",
       image: user5,
-      text: "I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results.",
+      textKey: "testimonials.4.text",
     },
     {
       user: "Emily Davis",
       company: "Synergy Systems",
       image: user6,
-      text: "The team went above and beyond to ensure our project was a success. Their expertise and dedication are unmatched. I look forward to working with them again in the future.",
+      textKey: "testimonials.5.text",
     },
   ];
   
