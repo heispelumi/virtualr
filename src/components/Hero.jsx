@@ -68,8 +68,8 @@ const Hero = () => {
         {/* Videos */}
         <div className='flex items-center  pb-[200px] lg:px-[150px] lg:pt-[100px] text-center'>
           <div className="grid items-center md:space-x-10 grid-cols-1 md:flex md:justify-center mt-10">
-            <video autoPlay loop muted src={video1} className="rounded-lg w-[350px] lg:w-[600px] border border-orange-700 shadow-orange-400 my-4"></video>
-            <video autoPlay loop muted src={video2} className="rounded-lg w-[350px] lg:w-[600px] border border-orange-700 shadow-orange-400 my-4"></video>
+            <video autoPlay loop muted src={video1} className="rounded-lg w-[350px] lg:w-[600px] border border-orange-700 shadow-orange-400 my-4 pointer-events-none"></video>
+            <video autoPlay loop muted src={video2} className="rounded-lg w-[350px] lg:w-[600px] border border-orange-700 shadow-orange-400 my-4 pointer-events-none"></video>
           </div>
         </div>
       </div>
